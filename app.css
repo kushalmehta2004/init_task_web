@@ -1,0 +1,86 @@
+#logo {
+    border-radius: 25%;
+}
+
+aside {
+    width: 23%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+    float: left;
+    box-shadow: 5px 0 5px -5px #29627e;
+    box font-style: italic;
+    color: #29627e;
+
+}
+
+main {
+    margin-top: 100px;
+}
+
+#date,
+#author {
+    width: auto;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.25em 0;
+    color: #7a7a7a;
+    font-style: italic;
+}
+
+.padl100 {
+    padding-left: 5%;
+}
+
+.padb40 {
+    padding-bottom: 40px;
+}
+
+.padt40 {
+    padding-top: 40px;
+}
+
+@media (min-width: 768px) .col-md-6 {
+    webkit-box-flex: 0;
+    ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 576px) .col-sm-12 {
+    webkit-box-flex: 0;
+    ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+
+@media only screen and (max-width:1000px) {
+    #aside {
+        display: none;
+    }
+}
+
+.col-sm-12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#form2 {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#tmark {
+    text-align: center;
+}
+
+.card-body {
+    background-color: #fbf9ed;
+}
